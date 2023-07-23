@@ -11,7 +11,7 @@ const App = () => {
     <div>
         <label htmlFor="input-name">Enter your name:</label>
         <input onChange={showName} type="text"/>
-        <p>hello {name}!</p>
+        <p>Hello {name}!</p>
     </div>
   )
 }
